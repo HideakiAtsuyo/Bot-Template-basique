@@ -10,3 +10,7 @@ Il suffit de lancer le (modules.bat => windows) ou (modules.sh => linux) pour ac
 # Lancement
 
 Il suffit de lancer le (start.bat => windows) ou (start.sh => linux) pour que le bot passe en ligne
+
+# Problèmes
+
+Si jamais il y a un problème vous pouvez ouvrir une [issue](https://github.com/Dany-LF/Bot-Template-basique/issues)
