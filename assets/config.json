@@ -1,0 +1,5 @@
+{
+	"token": "token bot",
+	"owner": "id owner",
+  "dbsqlite": "nomdeladb.sqlite"
+}

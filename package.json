@@ -1,0 +1,20 @@
+{
+  "name": "bottemplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dany-LF/Bot-Template-basique"
+  },
+  "author": "Dany-LF#3539",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "discord.js": "^11.5.1",
+    "sqlite": "^3.0.3",
+    }
+}
