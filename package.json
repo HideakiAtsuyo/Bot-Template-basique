@@ -15,6 +15,6 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "discord.js": "^11.5.1",
-    "sqlite": "^3.0.3",
+    "sqlite": "^3.0.3"
     }
 }
