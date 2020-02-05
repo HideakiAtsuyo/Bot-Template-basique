@@ -11,12 +11,12 @@ sql.open(`./assets/${config.dbsqlite}`);
 module.exports = async (client, message) => {
     sql.get(`SELECT * FROM guildes WHERE guildId ="${message.guild.id}"`).then(row => {
         if (!row) {
-            sql.run("INSERT INTO guildes (guildId, prefix) VALUES (?, ?)", [message.guild.id, "x>"]);
+            sql.run("INSERT INTO guildes (guildId, prefix) VALUES (?, ?)", [message.guild.id, "*"]);
           } 
         }).catch(() => {
         console.error;
         sql.run("CREATE TABLE IF NOT EXISTS guildes (guildId TEXT, prefix TEXT)").then(() => {
-          sql.run("INSERT INTO guildes (guildId, prefix) VALUES (?, ?)", [message.guild.id, "x>"]);
+          sql.run("INSERT INTO guildes (guildId, prefix) VALUES (?, ?)", [message.guild.id, "*"]);
       })
     })
 
