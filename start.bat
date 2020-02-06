@@ -1,5 +1,5 @@
 @echo off
-title modules
+title BOT
 cls
 :bot
 node index.js
