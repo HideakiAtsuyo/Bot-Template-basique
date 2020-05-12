@@ -34,7 +34,7 @@ var times = (chalk.red(`[`) + chalk.blue(`${heures}:${minutes}:${secondes}`) + c
             "type": "PLAYING"
           },
           {
-            "text": "L'OWNER: Dany-LF#3539",
+            "text": "L'OWNER: Hideaki#9897",
             "type": "WATCHING"
           },
           {
