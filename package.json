@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Dany-LF/Bot-Template-basique"
+    "url": "https://github.com/HideakiAtsuyo/Bot-Template-basique"
   },
-  "author": "Dany-LF#3539",
+  "author": "HideakiAtsuyo",
   "license": "MIT",
   "dependencies": {
     "chalk": "^3.0.0",
